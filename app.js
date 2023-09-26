@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Online Counseling Project');
+    res.send('Online Counseling Project - EPICS');
 });
 
 const server = app.listen(1000, () => {
